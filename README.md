@@ -60,4 +60,5 @@ This specific arm has been cropped from its original image and put into those 50
 
 ## Some results:
 
-Insert IMAGES HERE
+Training loss curve and the latent dimension learnt:
+![Baxter](/images/Capture6.PNG)
