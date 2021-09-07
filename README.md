@@ -10,5 +10,5 @@ If the VAE is properly trained, the disentanglement of latent dimensions here es
   
 Figure 1. Baxter robot arms 
 In this project, the focus is to train VAEs to disentangle the self of the robot from the environment.  Secondly, detect the dimensions which learn the arms as shown in the images above, and evaluate  the hypotheses that will be stated in the upcoming sections. Moreover, proper disentanglement will  enable the robot to imagine its self in new environments. Concretely, this means the robot attains  some self-awareness using a VAE and imagines itself in new surroundings.  
-Imagining itself in new surroundings increases the productivity of the robot. The paper in discusses Level 1 self-awareness where a robot can distinguish itself spatially from its surrounding. This project also builds on that idea[6] by using a generative network(VAE) instead of a deterministic network. 
+Imagining itself in new surroundings increases the productivity of the robot. The paper in discusses Level 1 self-awareness where a robot can distinguish itself spatially from its surrounding. This project also builds on that idea by using a generative network(VAE) instead of a deterministic network. 
 
