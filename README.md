@@ -28,7 +28,7 @@ The input images should have distinctive and invariant visual features that allo
 
 ### Model:
 
-INSERT IMAGES HERE
+![Baxter](/images/Capture2.PNG)
 
 ###  Input Data For VAEs: 
 Types of Data (required for the first hypothesis):  
