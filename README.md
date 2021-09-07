@@ -19,12 +19,12 @@ The overall objective of this project is to design VAEs which can disentangle th
 
 Hypothesis 1: 
 
-Variational Auto-Encoders provide the means for modeling the self via the latent space and  encapsulates and disentangles the robot's representation of self-awareness. 
-In other words, VAEs encode information into the latent space. If the information about the self of  the robot is encoded into this compressed high-dimensional and smooth latent space using the VAE,  then along with learning its self, the robot should also be able to disentangle its self from the rest of  the environment and imagine itself in new surroundings.  
+***Variational Auto-Encoders provide the means for modeling the self via the latent space and  encapsulates and disentangles the robot's representation of self-awareness. 
+In other words, VAEs encode information into the latent space. If the information about the self of  the robot is encoded into this compressed high-dimensional and smooth latent space using the VAE,  then along with learning its self, the robot should also be able to disentangle its self from the rest of  the environment and imagine itself in new surroundings. ***
 
 Hypothesis 2: 
 
-The input images should have distinctive and invariant visual features that allow the Variational  Auto-Encoders to disentangle them. 
+***The input images should have distinctive and invariant visual features that allow the Variational  Auto-Encoders to disentangle them.***
 
 ### Model:
 
