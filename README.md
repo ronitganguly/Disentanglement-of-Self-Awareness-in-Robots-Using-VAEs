@@ -39,12 +39,12 @@ The input data, which are the simulations of the Baxter robot in different envir
 The raw input images are of size 640 X 480 pixels. However, the size is cropped to 128 X 128 pixels  which are suitable for training the Image VAE. Now, there are two kinds of these images: 
 ∙ Images with the arms of the Baxter robot are visible in the environment( cropped to  128X128 pixels): 
 
-INSERT IMAGES HERE
+![Baxter](/images/Capture3.PNG)
 
 ∙ There are a total of 22,218 images with the arm of the Baxter robot visible in the  environment. 
 ∙ Images without the arms visible in the environment ( cropped to 128X128 pixels):
 
-INSERT IMAGES HERE
+![Baxter](/images/Capture4.PNG)
 
 ∙ There are a total of 10,218 images of the environment where the arms are not visible. ∙ The environment images are essentially the images where the arms are not in the front or  they are waving in the background.  
 
@@ -54,7 +54,7 @@ The proprioception data is provided in a table format containing three features:
 
 The experiment that has been conducted for supporting the second hypothesis uses a total of 100  randomly chosen unique environment images from the entire collection used in the first hypothesis  experiments. Additionally, 50 of these images have been edited by introducing a specific kind of arm of the Baxter robot:
 
-INSERT IMAGES HERE
+![Baxter](/images/Capture5.PNG)
 
 This specific arm has been cropped from its original image and put into those 50 different  backgrounds using online software, and there is no compulsion to use this kind of arm. Moreover,  each of these 50 images with the arm has been multiplied 50 times creating 2,500 total images with  the arm in them. On the other hand, the rest of the 50 unique environment images have been  multiplied 300 times producing 15,000 environment images. The idea is to let the Image VAE know  that the arm of the robot is only in 2,500 images with 50 different backgrounds. This should help the  Image VAE to learn that the arm can be disentangled from the variable background and reproduced  in the rest of the 50 different environment images.  
 
