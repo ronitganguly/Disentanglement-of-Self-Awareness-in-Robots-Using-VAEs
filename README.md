@@ -2,7 +2,7 @@
 ### This is a brief description on the University project that I worked on as a part of my Master's thesis
 
 
-Please ask for the full research thesis to understand about the project.
+Please ask for the full research thesis to understand about the project @ ronitganguly1947@gmail.com
 
 ## Context
 Representation of the world of robot comes from the theory behind world models and Variational  Auto-Encoders. World models paper discusses how humans store a compressed representation of  their respective worlds in their minds which allows them to make predictions of the future and take  necessary actions. Similar objectives may be achieved in machines using generative neural  networks, such as Variational Auto-Encoders (VAEs). The VAEs are special Auto-Encoders which use a  KL divergence regularizer along with the reconstruction error. This regularizer forces the high  dimensional latent space to become regular, and a sufficiently smooth latent space allows for  disentanglement of latent dimensions. 
